@@ -1,0 +1,24 @@
+.highlight {
+  border-left: 4px solid var(--link-color, #035fe6);
+  background-color: var(--background-color, #f8f8f8);
+  padding: 16px 20px;
+  margin: 24px 0;
+}
+
+.highlight .highlight-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.highlight .highlight-text p {
+  margin: 0;
+}
+
+.highlight .highlight-label {
+  font-size: var(--body-font-size-xs, 12px);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--link-color, #035fe6);
+}
